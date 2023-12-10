@@ -54,7 +54,7 @@ body {
   width: 100vh;
   height: 100vh;
   grid-template-columns: 10% 80% 10%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: 10vh 90vh 5vh;
   line-height: 1.8;
   background: #27292e;
 }
@@ -72,7 +72,7 @@ header h1 {
 }
 
 main {
-  padding: 2rem;
+  margin: 2rem;
   grid-row: 2;
   grid-column: 2/3;
   align-self: center;
@@ -92,8 +92,9 @@ main .grid {
   background-color: #002e78;
   width: 77vh;
   height: 66vh;
+  border: 10px solid #001c4a;
 }
-main .grid .token {
+main .grid .cell {
   margin: 0.5vh;
   width: 10vh;
   justify-self: center;
